@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+.nav-bar {
+  background-color: #544064ff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-size: 125%;
+}
+.top-container {
+  background-color: #544064ff;
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 400px;
+}
+.middle-container {
+  line-height: 2;
+  padding: 0;
+}
+.bottom-container {
+  background-color: #544064ff;
+  position: relative;
+  padding: 30px;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 5.625rem; /*16px = 100% = 1em*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #efa83bff;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #efa83bff;
+  font-size: 2.5rem;
+}
+.typed-text {
+  display: inline-block;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #a85aa3ff;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #9ea5a5;
+  border-width: 5px;
+  width: 5%;
+}
+
+.profile {
+  width: 35%;
+  margin: 50px auto 50px;
+  line-height: 2;
+}
+
+.profile-pic {
+  margin-bottom: 20px;
+}
+.skills {
+  margin: 50px auto 50px;
+}
+.skill-row {
+  text-align: left;
+  width: 65%;
+  margin: 100px auto 200px;
+  padding: 10px 20px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 40px auto 60px;
+  line-height: 3;
+}
+
+.projects-row {
+  margin: 100px auto 200px;
+}
+a {
+  color: #d4afcdff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.another-cloud {
+  position: absolute;
+  bottom: 200px;
+  right: 250px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 600px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 450px;
+}
+
+.circle-1 {
+  width: 1%;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+
+.circle-2 {
+  width: 1%;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.circle-3 {
+  width: 1%;
+  position: absolute;
+  top: 400px;
+  left: 80px;
+}
+
+.circle-4 {
+  width: 1%;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+.ycircle-1 {
+  width: 1%;
+  position: absolute;
+  top: 120px;
+  left: 250px;
+}
+
+.ycircle-2 {
+  width: 1%;
+  position: absolute;
+  right: 100px;
+  top: 450px;
+}
+
+.ycircle-3 {
+  width: 1%;
+  position: absolute;
+  left: 350px;
+  bottom: 120px;
+}
+
+.pcircle-1 {
+  width: 1%;
+  position: absolute;
+  right: 180px;
+  bottom: 100px;
+}
+
+.pcircle-2 {
+  width: 1%;
+  position: absolute;
+  right: 350px;
+  top: 200px;
+}
+
+.pcircle-3 {
+  width: 1%;
+  position: absolute;
+  bottom: 200px;
+}
+.computing {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.project-management {
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+
+.contactme_button {
+  display: block;
+  width: 27%;
+  background-color: #d4afcdff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 25px auto 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.contactme_button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer-link {
+  font: "Montserrat", sans-serif;
+  color: #d4afcdff;
+  padding: 20px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.fab fa-github {
+  width: 20%;
+}
+.icon-button {
+  font-size: 50px;
+}
