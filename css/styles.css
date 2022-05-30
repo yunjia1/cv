@@ -3,6 +3,10 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   color: #40514e;
+    line-height: 2;
+    background-color: #f1edf7;
+
+
 }
 
 .nav-bar {
@@ -16,6 +20,7 @@ body {
   position: relative;
   padding-top: 250px;
   padding-bottom: 400px;
+  
 }
 .middle-container {
   line-height: 2;
@@ -62,7 +67,7 @@ hr {
   width: 35%;
   margin: 50px auto 50px;
   line-height: 2;
-}
+} 
 
 .profile-pic {
   margin-bottom: 20px;
@@ -72,9 +77,9 @@ hr {
 }
 .skill-row {
   text-align: left;
-  width: 65%;
-  margin: 100px auto 200px;
-  padding: 10px 20px;
+  width: 75%;
+  margin: 100px auto 100px;
+  padding: 40px 40px;
 }
 
 .contact-me {
@@ -188,6 +193,12 @@ a:hover {
 
 .project-management {
   width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+
+.spotify {
+  width: 25%;
   float: right;
   margin-right: 30px;
 }
