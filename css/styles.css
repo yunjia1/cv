@@ -49,10 +49,13 @@ h3 {
 }
 
 hr {
-  border-style: dotted none none;
-  border-color: #9ea5a5;
-  border-width: 5px;
-  width: 5%;
+  border:none;
+  border-top:5px dotted rgb(26, 24, 24);
+  color:#fff;
+  background-color:#fff;
+  height: 5px;
+  width:20%;
+  display: inline-block;
 }
 
 .profile {
